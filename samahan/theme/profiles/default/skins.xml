@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<object name="portal_skins" allow_any="False" cookie_persistence="False"
+   default_skin="Sunburst Theme">
+   <object name="samahan_theme"
+        meta_type="Filesystem Directory View"
+        directory="samahan.theme:skins/samahan_theme"/>
+    <skin-path name="*">
+        <layer name="samahan_theme"
+                insert-after="custom"/>
+    </skin-path>
+</object>
